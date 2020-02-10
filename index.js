@@ -4,6 +4,7 @@ const server = http.createServer((req, res) => {
     console.log(req.url)
 
     res.write('<h1>Hello from AgriChain</h1>')
+    res.write('<h2>Subheader</h2>')
     res.end()
 })
 
